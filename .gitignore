@@ -1,20 +1,22 @@
 *.class
 
-# package file
+#package file
+
 *.war
 *.ear
 
-# kdiff3 ignore
+#kdiff3 ignore
 *.orig
 
-# maven ignore
+#maven ignore
 target/
 
-# eclipse ignore
+#eclipse ignore
 .settings/
 .project
+.classpath
 
-# idea
+#idea
 .idea/
 /idea/
 *.ipr
@@ -22,6 +24,7 @@ target/
 *.iws
 
 # temp file
+
 *.log
 *.cache
 *.diff
@@ -31,4 +34,3 @@ target/
 # system ignore
 .DS_Store
 Thumbs.db
-
